@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: 'schedule', component:ScheduleComponent},
   {path: 'home', component:HomeComponent},
   {path: 'reviews', component:ReviewsComponent},
-  {path: '',redirectTo: '', pathMatch:'full'}
+  {path: '',redirectTo: '/home', pathMatch:'full'}
 ];
 
 @NgModule({
